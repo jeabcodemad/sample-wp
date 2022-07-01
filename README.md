@@ -6,3 +6,5 @@ sample wordpress
     user: admin
     pass: @admin1234
 3. working only on homepage
+
+ps. master branch
