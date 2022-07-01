@@ -10,11 +10,11 @@ get_header();
 <div id="services">
 	<div class="container">
 		<?php
-		if(is_home() or is_front_page() ) {
+		// if(is_home() or is_front_page() ) {
 			the_content();
-		} else {
+		// } else {
 			
-		}
+		// }
 		?>	
 	</div>
 	<!--container-->

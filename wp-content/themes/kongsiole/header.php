@@ -96,7 +96,7 @@
             </ul>
         </div>
     </div>
-
+	<?php if(is_home() or is_front_page() ) :?>
     <div id="banner">
 		<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
 			<div class="carousel-inner">
@@ -111,11 +111,8 @@
 				</div>
 			</div>
 		</div>
-		
-
-
-        <!-- <img src="<?php //echo get_template_directory_uri();?>/assets/images/ole777aff_20210430.jpg" alt="Banner"> -->
-    </div>
+	</div>
+	<?php endif ?>
 
     <!-- Mobile Banner Slider (Replaces Banner at 480px Viewport) -->
     <div id="mobile-slider">
